@@ -27,4 +27,7 @@ body {    height: 100vh;}
 }
 
 .active {    display: block!important;}
-.selected {    filter: brightness(100%)!important;}
+.selected {    
+    filter: brightness(100%)!important;
+    border: 1px solid white;
+}
