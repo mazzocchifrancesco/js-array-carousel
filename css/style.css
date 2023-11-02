@@ -1,18 +1,30 @@
 #carosello-img {
     height: 50vh;
-    width: 50vw;
+    width: 80vw;
 }
 
-img {
+#carosello-img img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     object-position: center;
     display: none
 }
-body {
-    height: 100vh;
+body {    height: 100vh;}
+#thumbnails {
+    width: 25%;
+    height: 100%;
+    background-color: blue;
+    z-index: 800;
 }
-.active {
-    display: block;
+
+#thumbnails img {
+    width: 100%;
+    height: calc(100% / 5);
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(50%);
 }
+
+.active {    display: block!important;}
+.selected {    filter: brightness(100%)!important;}
