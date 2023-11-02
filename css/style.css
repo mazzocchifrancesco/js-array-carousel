@@ -1,0 +1,18 @@
+#carosello-img {
+    height: 50vh;
+    width: 50vw;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: none
+}
+body {
+    height: 100vh;
+}
+.active {
+    display: block;
+}
