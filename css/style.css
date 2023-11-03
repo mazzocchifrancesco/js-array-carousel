@@ -1,9 +1,9 @@
-#carosello-img {
+#caroselloImg {
     height: 50vh;
     width: 80vw;
 }
 
-#carosello-img img {
+#caroselloImg > img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -14,7 +14,6 @@ body {    height: 100vh;}
 #thumbnails {
     width: 25%;
     height: 100%;
-    background-color: blue;
     z-index: 800;
 }
 
@@ -31,3 +30,5 @@ body {    height: 100vh;}
     filter: brightness(100%)!important;
     border: 1px solid white;
 }
+
+.btn {z-index: 9999;}
